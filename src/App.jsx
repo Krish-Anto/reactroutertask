@@ -1,7 +1,6 @@
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import TopNav from "./assets/components/TopBar";
 import { Routes,Route,Link } from "react-router-dom";
 import All from "./assets/components/All";
 import DataScience from "./assets/components/DataScience";
@@ -264,8 +263,6 @@ function App() {
 
   return (
     <div className="App">
-    
-      <TopNav />
       <nav id="menu">
         <ul className="animated-underline">
           <li className="nav-item mx-3">
